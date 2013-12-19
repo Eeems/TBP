@@ -1,0 +1,43 @@
+AboutMsg:
+	db "Author:\nEeems\nNathaniel van Diepen\rVersion:\nv0.1a\rThanks:\rKermM - DCS7\rIambian - coding help, and help with compression\rCalc84 - coding help,"," and helping teach me asm in the first place\rRuner112 - help with debugging, and making a few routines for me *cough* tilemapper *cough* and more\rGraphmastur-support,"," helping with general asm knowledge\rSean McLaughlin - ASM in 28 days\rDrDnar - Helping me solve the issue of where to store my decompressed data\rBrandon W - Do I"," even need to say why?\rDJ Omnimaga - Omnimaga! Support! being awesome <3\rOh, and Runner112's help was awesome",0
+error_parse:
+	db "Parsing Error",0
+error_null:
+	db "Null Pointer Error",0
+error_none:
+	db "No spells available",0
+ContrastMenuTitle:
+	db "Contrast",0
+ContrastMenuItem0:
+	db "current:",0
+ContrastMenuItem1:
+	db "+ and - keys to\n\tchange contrast",0
+NameMenuTitle:
+	db "Name Change",0
+NameMenuItems:
+	db "Arrow keys\n\tto enter data\n\t11 char limit",0
+MagicMenuTitle:
+	db "Magic",0
+saved_text:
+	db "Saved!",0
+save_appvar_name:
+	db $15,"TBPSave"
+battle_run_fail	;
+	db "Failed to Escape",0
+battle_run_escape:
+	db "Escaped!",0
+battle_intro:
+	db "You have been attacked by\n"
+battle_intro_end:
+battle_missed:
+	db "Attack missed!",0
+Magic_strings:
+	db "Black",0
+	db "White",0
+	db "Grey",0
+	db "Brown",0
+	db "Green",0
+	db "Yellow",0
+	db "Purple",0
+	db "Red",0
+	db "Blue",0

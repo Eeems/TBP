@@ -1,0 +1,46 @@
+;look at bottom of file for location defines
+DefaultSettings
+	db 1				;current game mode (0=platform 1=battle 2=starting cutscene)
+	dw intro_scene		;next cutscene
+	db 0				;current level loaded
+	db 0				;mapx
+	db 0				;mapy
+	dw mapData			;current map data
+	dw tileData			;current tile data
+	db 8				;charx
+	db 16				;chary
+	db 1				;timer
+	db 0				;swap counter
+	db 0				;currently loaded sprite
+	db 0				;sprite1
+	db 0				;sprite2
+	dw BlackMage		;SpriteSet
+	db "Black Mage ",0	;Name string
+	db 32				;distance of jump
+	db 10				;amount of time at the top (plateu time)
+	db 10				;character health
+	db 10				;character max health
+	db 10				;character mana
+	db 10				;character max mana
+	db 3				;character strength
+	db 1				;character resistance
+	db 1				;character agility
+	
+	db 1,1,1,1,0		;magic
+	db 1,1,1,1			;Table
+	
+	dw 0			;placeholder
+	db 10				;enemy character health
+	db 10				;enemy character max health
+	db 10				;enemy character mana
+	db 10				;enemy character max mana
+	db 2				;enemy character strength
+	db 1				;enemy character resistance
+	db 1				;enemy character agility
+	
+	dw 0,0,0,0			;Magic
+	db 0				;Table
+	
+	db 2				;enemy type
+	db "Monster     ",0	;enemy name string
+DefaultSettingsEnd:

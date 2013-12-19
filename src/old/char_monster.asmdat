@@ -1,0 +1,31 @@
+;Tile data - Graphics Studio
+
+
+Monster:
+ ;Tile 0
+ .db $7E,$FF,$FF,$D3,$A5,$E9,$BB,$56,$7E,$5A,$CF,$EF,$7A,$5A,$7E,$66
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$7E,$7E,$FF,$FF,$7E,$7E,$7E,$66
+ ;Tile 1
+ .db $7E,$FF,$FF,$D3,$A5,$E9,$BB,$56,$7E,$DA,$CF,$6F,$7A,$7A,$6E,$06
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$7E,$FE,$FF,$7F,$7E,$7E,$6E,$06
+ ;Tile 2
+ .db $7E,$FF,$FF,$D3,$A5,$E9,$BB,$56,$7E,$5B,$CF,$EE,$7A,$5E,$76,$60
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$7E,$7F,$FF,$FE,$7E,$7E,$76,$60
+ ;Tile 3
+ .db $7E,$FF,$FF,$AF,$DF,$AB,$33,$6E,$7A,$76,$6A,$66,$56,$7A,$56,$6E
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$7F,$7E,$7E,$7E,$7E,$7E,$7E,$7E,$7E,$6E
+ ;Tile 4
+ .db $7E,$FF,$FF,$AF,$DF,$AB,$33,$6E,$7A,$76,$6A,$66,$56,$7A,$5E,$36
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$7F,$7E,$7E,$7E,$7E,$7E,$7E,$7E,$7E,$36
+ ;Tile 5
+ .db $7E,$FF,$FF,$F5,$FB,$D5,$CC,$76,$5E,$6E,$56,$66,$6A,$5E,$6A,$76
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FE,$7E,$7E,$7E,$7E,$7E,$7E,$7E,$7E,$76
+ ;Tile 6
+ .db $7E,$FF,$FF,$F5,$FB,$D5,$CC,$76,$5E,$6E,$56,$66,$6A,$5E,$7A,$6C
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FE,$7E,$7E,$7E,$7E,$7E,$7E,$7E,$7E,$6C
+ ;Tile 7
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$5F,$63,$DE,$CA,$6A,$56,$3A,$06
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$7F,$7F,$FE,$FE,$7E,$7E,$3E,$06
+ ;Tile 8
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$FA,$C6,$7B,$53,$56,$6A,$5C,$60
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$FE,$FE,$7F,$7F,$7E,$7E,$7C,$60

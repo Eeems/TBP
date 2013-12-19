@@ -1,0 +1,31 @@
+;Tile data - Graphics Studio
+
+
+BlackMage:
+ ;Tile 0
+ .db $7E,$FF,$FF,$9F,$AF,$87,$DB,$66,$5A,$5A,$5A,$5A,$5A,$5A,$DB,$7E
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$7E,$7E,$7E,$7E,$7E,$7E,$FF,$7E
+ ;Tile 1
+ .db $7E,$FF,$FF,$9F,$AF,$87,$DB,$66,$5A,$5A,$5A,$5A,$5A,$DA,$7B,$3E
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$7E,$7E,$7E,$7E,$7E,$FE,$7F,$3E
+ ;Tile 2
+ .db $7E,$FF,$FF,$9F,$AF,$87,$DB,$66,$5A,$5A,$5A,$5A,$5A,$5B,$DE,$7C
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$7E,$7E,$7E,$7E,$7E,$7F,$FE,$7C
+ ;Tile 3
+ .db $7E,$FF,$FF,$BF,$DF,$8F,$37,$46,$7A,$62,$62,$61,$71,$71,$79,$6E
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$7F,$7E,$7E,$7E,$7E,$7F,$7F,$7F,$7F,$6E
+ ;Tile 4
+ .db $7E,$FF,$FF,$BF,$DF,$8F,$37,$46,$7A,$62,$62,$61,$71,$71,$79,$36
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$7F,$7E,$7E,$7E,$7E,$7F,$7F,$7F,$7F,$36
+ ;Tile 5
+ .db $7E,$FF,$FF,$FD,$FB,$F1,$EC,$62,$5E,$46,$46,$86,$8E,$8E,$9E,$76
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FE,$7E,$7E,$7E,$7E,$FE,$FE,$FE,$FE,$76
+ ;Tile 6
+ .db $7E,$FF,$FF,$FD,$FB,$F1,$EC,$62,$5E,$46,$46,$86,$8E,$8E,$9E,$6C
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FE,$7E,$7E,$7E,$7E,$FE,$FE,$FE,$FE,$6C
+ ;Tile 7
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$43,$43,$C2,$C2,$42,$C2,$43,$3E
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$7E,$7E,$7E,$7E,$7E,$FE,$7F,$3E
+ ;Tile 8
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$C2,$C2,$43,$43,$42,$43,$C2,$7C
+ .db $7E,$FF,$FF,$FF,$FF,$FF,$FF,$7E,$7E,$7E,$7E,$7E,$7E,$7F,$FE,$7C

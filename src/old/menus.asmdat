@@ -1,0 +1,95 @@
+;menu:
+;	db titletext,0,itemamount
+;
+;	db menuitemtext1,0
+;	db menuitemtext2,0
+;
+;	dw pointer1
+;	dw pointer2
+;
+;	dw cancelpointer
+;
+;Main menu for when game loads
+MainMenu:
+	db "The Blue Platform",0,5
+	
+	db "New",0
+	db "Load",0
+	db "Settings",0
+	db "About",0
+	db "Exit",0
+
+	dw New
+	dw Load
+	dw Settings
+	dw About
+	dw End
+
+	dw End
+;Main Menu Settings Menu
+SettingsMainMenu:
+	db "Game Settings",0,3
+	
+	db "Contrast",0
+	db "Name",0
+	db "Back",0
+	
+	dw ContrastSettings
+	dw NameSettings
+	dw Start
+	
+	dw Start
+;In game pause menu
+GameMenu:
+	db "Game Paused",0,4
+	
+	db "Resume",0
+	db "Save",0
+	db "Settings",0
+	db "Quit to Menu",0
+	
+	dw engine_return
+	dw engine_save
+	dw engine_settings
+	dw engine_quit
+	
+	dw engine_return
+;In game pause menu
+BattleMenu:
+	db "Game Paused",0,3
+	
+	db "Resume",0
+	db "Settings",0
+	db "Quit to Menu",0
+	
+	dw battle_return
+	dw battle_settings
+	dw battle_quit
+	
+	dw battle_return
+;In game settings menu
+BattleSettingsMenu:
+	db "Game Settings",0,3
+	
+	db "Contrast",0
+	db "Name",0
+	db "Back",0
+	
+	dw battle_contrast
+	dw battle_name
+	dw battle_menu
+	
+	dw battle_menu
+;In game settings menu
+SettingsMenu:
+	db "Game Settings",0,3
+	
+	db "Contrast",0
+	db "Name",0
+	db "Back",0
+	
+	dw engine_contrast
+	dw engine_name
+	dw engine_menu
+	
+	dw engine_menu
