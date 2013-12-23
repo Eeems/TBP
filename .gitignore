@@ -216,6 +216,10 @@ pip-log.txt
 
 # Built files
 *.8xp
+*.8xk
 
 # Executables
 Wabbitemu.exe
+
+#Roms
+rom.rom
