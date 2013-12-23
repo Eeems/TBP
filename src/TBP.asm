@@ -26,5 +26,10 @@ Init:
 	ld a,(contrast)
 	ld (CurrentContrast),a	;get and store the contrast for later
 Start:
-	
+	dialog(text)
 	ret
+text
+	db "This is a test",0
+#include "routines.asm"
+#include "keys.asm"
+#include "images.asm"
