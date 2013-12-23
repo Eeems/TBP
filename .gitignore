@@ -222,4 +222,4 @@ pip-log.txt
 Wabbitemu.exe
 
 #Roms
-rom.rom
+*.rom
